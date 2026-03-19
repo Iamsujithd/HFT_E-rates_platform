@@ -1,0 +1,24 @@
+# macOS junk
+.DS_Store
+
+# Node/Vite artifacts
+client-ui/node_modules/
+client-ui/dist/
+client-ui/.vite/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java/Maven outputs
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE metadata
+.idea/
+*.iml
+.vscode/
+
+# Env/config secrets
+.env
+.env.*
